@@ -58,7 +58,7 @@ class EvilHenchperson
   end
 
   def ears=(new_ears)
-  	@ears
+  	@ears = (new_ears)
   end
 
   def weapon
@@ -66,9 +66,16 @@ class EvilHenchperson
   end
 
   def weapon=(new_weapon)
-  	@weapon
+  	@weapon = new_weapon
   end
 
+  def depravity
+    @depravity
+  end
+
+  def depravity=(new_depravity)
+    @depravity = new_depravity
+  end
 end
 
 binding.pry
