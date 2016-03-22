@@ -6,6 +6,7 @@ class Dog
     @name = options[:name]
     @age = options[:age]
     @species = options[:species]
+    @gender = options[:gender]
     @tail = options[:tail] 
     @legs = options[:legs]
     @eyes = options[:legs]
@@ -36,6 +37,14 @@ class Dog
 
   def species=(new_species)
   	@species
+  end
+
+  def gender
+  	@gender
+  end
+
+  def gender=(new_gender)
+  	@gender = new_gender
   end
 
   def tail
