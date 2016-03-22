@@ -8,7 +8,9 @@ class Dog
     @species = options[:species]
     @tail = options[:tail] 
     @legs = options[:legs]
-    @eyes = options[:legs]	
+    @eyes = options[:legs]
+    @ears = options[:ears]
+    @license = options[:license]
   end
 
   def name
@@ -34,7 +36,7 @@ class Dog
   def species=(new_species)
   	@species
   end
-  
+
   def tail
     @tail
   end
@@ -57,6 +59,22 @@ class Dog
 
   def eyes=(new_eyes)
     @eyes = new_eyes
+  end
+
+  def ears
+  	@ears
+  end
+
+  def ears=(new_ears)
+  	@ears
+  end
+
+  def license
+  	@license
+  end
+
+  def license=(new_license)
+  	@license
   end
 
 end
