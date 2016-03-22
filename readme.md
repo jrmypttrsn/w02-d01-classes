@@ -1,8 +1,11 @@
-#The Contiuing Saga of :dog:, :rabbit:, and :suspect:
-######(The Continuing Saga of Dogs, Rabbits and Evil Henchpersons)
-#### :metal: A Tragicomedy :pray:
+#:dog: Dog, :rabbit: Rabbit, and :suspect: Evil Henchpersons: 3 Classes
 
-In which we find three (3) classes:  
+Dogs want to kill rabbits. Evil henchpersons want to kill dogs. Rabbits and dogs just want to live.
+
+The following are classes of things:
+
 1. Dogs  
 2. Rabbits  
 3. Evil Henchpersons
+
+These classes all have attributes.
