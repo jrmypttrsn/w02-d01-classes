@@ -11,6 +11,7 @@ class Dog
     @eyes = options[:legs]
     @ears = options[:ears]
     @license = options[:license]
+    @shots = options[:shots]
   end
 
   def name
@@ -75,6 +76,14 @@ class Dog
 
   def license=(new_license)
   	@license
+  end
+
+  def shots
+  	@shots
+  end
+
+  def shots=(new_shots)
+  	@shots
   end
 
 end
