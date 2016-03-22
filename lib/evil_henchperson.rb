@@ -10,7 +10,7 @@ class EvilHenchperson
     @eyes = options[:legs]
     @ears = options[:ears]
     @weapon = options[:weapon]
-    @depravity = options[:depravity]
+    @depravity = options[:depravity] #degree to witch they are evil
   end
 
   def name
