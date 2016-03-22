@@ -5,4 +5,4 @@
 In which we find three (3) classes:  
 1. Dogs  
 2. Rabbits  
-3. Evil Henchman  
+3. Evil Henchpersons
