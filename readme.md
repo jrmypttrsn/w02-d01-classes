@@ -1,4 +1,4 @@
-#:dog: Dog, :rabbit: Rabbit, and :suspect: Evil Henchpersons: 3 Classes
+#:dog: Dogs, :rabbit: Rabbits, and :suspect: Evil Henchpersons: 3 Classes
 
 Dogs want to kill rabbits. Evil henchpersons want to kill dogs. Rabbits and dogs just want to live.
 
