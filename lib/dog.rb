@@ -8,7 +8,7 @@ require "pry"
 # How many legs does the dog have?
 # How many eyes does the dog have?
 # How many ears does the dog have?
-# Is the dog licensed?
+# What is the dog's license number?
 # Is the dog up to date on their shots?
 
 
