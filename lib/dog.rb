@@ -1,5 +1,17 @@
 require "pry"
 
+# What is the name of the dog?
+# What is the age of the dog?
+# What is the species of the dog?
+# What is the gender of the dog?
+# Does the dog have a tail?
+# How many legs does the dog have?
+# How many eyes does the dog have?
+# How many ears does the dog have?
+# Is the dog licensed?
+# Is the dog up to date on their shots?
+
+
 class Dog
 
 	def initialize(options={})

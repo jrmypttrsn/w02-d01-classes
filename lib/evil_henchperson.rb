@@ -1,5 +1,14 @@
 require "pry"
 
+# What is the name of the henchperson?
+# What is the age of the henchperson?
+# What is the gender of the henchperson?
+# How many legs does the henchperson have?
+# How many eyes does the henchperson have?
+# How many ears does the henchperson have?
+# What weapon does the henchperson have?
+# How evil is the henchperson?
+
 class EvilHenchperson
 
 	def initialize(options={})

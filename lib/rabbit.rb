@@ -1,5 +1,15 @@
 require "pry"
 
+# What is the name of the rabbit?
+# What is the age of the rabbit?
+# What is the species of the rabbit?
+# Does the rabbit have a tail?
+# How many legs does the rabbit have?
+# How many eyes does the rabbit have?
+# How many ears does the rabbit have?
+# Does the rabbit have children?
+
+
 class Rabbit
 
 	def initialize(options={})
