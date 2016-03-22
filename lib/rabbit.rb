@@ -34,7 +34,7 @@ class Rabbit
   end
 
   def species=(new_species)
-  	@species
+  	@species = new_species
   end
 
   def tail
@@ -42,7 +42,7 @@ class Rabbit
   end
 
   def tail=(new_tail)
-    @tail = new_tai
+    @tail = new_tail
   end
 
   def legs
@@ -66,7 +66,7 @@ class Rabbit
   end
 
   def ears=(new_ears)
-  	@ears
+  	@ears = new_ears
   end
 
   def children
@@ -74,7 +74,7 @@ class Rabbit
   end
 
   def children=(new_children)
-    @children
+    @children = new_children
   end
 
 end
