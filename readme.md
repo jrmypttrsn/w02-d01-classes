@@ -1,4 +1,4 @@
-##The Contiuing Saga of :dog:, :rabbit:, and :suspect:
+#The Contiuing Saga of :dog:, :rabbit:, and :suspect:
 ######(The Continuing Saga of Dogs, Rabbits and Evil Henchpersons)
 ####A Tragicomedy
 
