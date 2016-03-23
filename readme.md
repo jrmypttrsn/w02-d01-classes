@@ -48,4 +48,4 @@ The `EvilHenchperson` class contains the following attributes:
 * _depravity_: an integer representing the degree to which the henchperson is evil (1 being mean,100 being the physical embodiment of pure evil)
 
 
-
+Eventually they will interact with each other in that the dogs want to catch and kill the rabbits, the henchpersons want to kill the dogs, and the rabbits just want to eat from the garden (a new class to be created because I have so much time).
