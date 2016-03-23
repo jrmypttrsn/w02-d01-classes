@@ -2,7 +2,7 @@ require "pry"
 
 class EvilHenchperson
 
-  attr_accessor :name :age :gender :legs :eyes :ears :weapon :depravity
+  attr_accessor :name :age :gender :legs :eyes :ears :weapon :depravity :dogs_stolen
 
 	def initialize(options={})
     @name = options[:name]
@@ -13,6 +13,7 @@ class EvilHenchperson
     @ears = options[:ears]
     @weapon = options[:weapon]
     @depravity = options[:depravity]
+    @dogs_stolen = options[:dogs_stolen]
   end
 
 end
