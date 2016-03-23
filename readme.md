@@ -21,6 +21,7 @@ The `Dog` class contains the following attributes:
 * _ears_: an integer representing how many ears the dog has
 * _license_: an integer representing the license number of the dog
 * _shots_: a boolean value representing whether the dogs is up to date on their shots
+* _rabbits killed_: an integer representing the number of rabbits the dog has killed
 
 **Rabbit Class**
 
@@ -46,6 +47,7 @@ The `EvilHenchperson` class contains the following attributes:
 * _ears_: a string representing how many ears the henchperson has
 * _weapon_: a string representing the weapon the henchperson carries
 * _depravity_: an integer representing the degree to which the henchperson is evil (1 being mean,100 being the physical embodiment of pure evil)
+* _dogs killed_: an integer representing the number of dogs the henchperson has stolen
 
 
 *Eventually they will interact with each other in that the dogs want to catch and kill the rabbits, the henchpersons want to kill the dogs, and the rabbits just want to eat from the garden (a new class to be created because I have so much time).*
