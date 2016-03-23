@@ -2,9 +2,9 @@
 
 The following are three classes of things that exist in the world:
 
-	* Dogs  
-	* Rabbits  
-	* Evil Henchpersons
+* Dogs  
+* Rabbits  
+* Evil Henchpersons
 
 These classes all have attributes pertaining to them that will be explained below.
 
