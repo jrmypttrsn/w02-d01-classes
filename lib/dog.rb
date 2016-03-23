@@ -2,7 +2,7 @@ require "pry"
 
 class Dog
 
-	attr_accessor :name :age :species :gender :tail :eyes :ears :license :shots :rabbits_eaten
+	attr_accessor :name :age :species :gender :tail :eyes :ears :license :shots? :rabbits_eaten
 
 	def initialize(options={})
     @name = options[:name]
@@ -14,7 +14,7 @@ class Dog
     @eyes = options[:legs]
     @ears = options[:ears]
     @license = options[:license]
-    @shots = options[:shots]
+    @shots? = options[:shots]
     @rabbits_eaten = options[:rabbits_eaten]
   end
 
