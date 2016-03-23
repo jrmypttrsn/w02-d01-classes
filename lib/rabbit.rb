@@ -1,16 +1,8 @@
 require "pry"
 
-# What is the name of the rabbit?
-# What is the age of the rabbit?
-# What is the species of the rabbit?
-# Does the rabbit have a tail?
-# How many legs does the rabbit have?
-# How many eyes does the rabbit have?
-# How many ears does the rabbit have?
-# Does the rabbit have children?
-
-
 class Rabbit
+
+  attr_accessor :name :age :species :tail :legs :eyes :ears :children
 
 	def initialize(options={})
     @name = options[:name]
@@ -22,71 +14,7 @@ class Rabbit
     @ears = options[:ears]
     @children = options[:children]
   end
-
-  def name
-    @name
-  end
-
-  def name=(new_name)
-    @name = new_name
-  end
-
-  def age
-    @age
-  end
-
-  def age=(new_age)
-    @age = new_age if new_age >= 1
-  end
-
-  def species
-  	@species
-  end
-
-  def species=(new_species)
-  	@species = new_species
-  end
-
-  def tail
-    @tail
-  end
-
-  def tail=(new_tail)
-    @tail = new_tail
-  end
-
-  def legs
-    @legs
-  end
-
-  def legs=(new_legs)
-    @legs = new_legs
-  end
-
-  def eyes
-    @eyes
-  end
-
-  def eyes=(new_eyes)
-    @eyes = new_eyes
-  end
-
-  def ears
-  	@ears
-  end
-
-  def ears=(new_ears)
-  	@ears = new_ears
-  end
-
-  def children
-    @children
-  end
-
-  def children=(new_children)
-    @children = new_children
-  end
-
+  
 end
 
 #binding.pry
