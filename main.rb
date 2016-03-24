@@ -72,7 +72,7 @@ def create_a_rabbit
 end
 
 def dog_data(dog)
-  puts "\n\n\nDOG DETAILS\n"
+  puts "\n\nDOG DETAILS\u00AE\n"
   puts "Your dog is named #{dog.name} and is #{dog.age} years old."
   puts "#{dog.name} is a #{dog.gender} #{dog.species}."
   puts "#{dog.name} has a #{dog.tail} tail, #{dog.legs} legs, #{dog.eyes} eyes and #{dog.ears} ears."
@@ -80,8 +80,8 @@ def dog_data(dog)
   puts "#{dog.name} has killed #{dog.rabbits_killed} rabbit(s)."
 end
 
-def rabbit_census(dog)
-  puts "\n\n\nRABBIT RECORD\n"
+def rabbit_census(rabbit)
+  puts "\n\nRABBIT RECORD\u00AE\n"
   puts "Your rabbit is named #{rabbit.name} and is #{rabbit.age} years old."
   puts "#{rabbit.name} is a #{rabbit.gender} #{rabbit.species}."
   puts "#{rabbit.name} has #{rabbit.legs} legs, #{rabbit.eyes} eyes and #{rabbit.ears} ears."
