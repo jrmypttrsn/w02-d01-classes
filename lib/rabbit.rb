@@ -8,8 +8,9 @@ class Rabbit
     @name = options[:name]
     @age = options[:age]
     @species = options[:species]
+    @gender = options[:gender]
     @legs = options[:legs]
-    @eyes = options[:legs]
+    @eyes = options[:eyes]
     @ears = options[:ears]
     @children = options[:children]
   end
