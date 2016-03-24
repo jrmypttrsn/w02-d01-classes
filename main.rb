@@ -126,8 +126,8 @@ while choice != 0
   elsif choice == 4
     report_all_rabbits(rabbits)
   elsif choice == 0
-    puts "\n\nTake off!"
+    puts "\n\nTake off!\n\n"
   else
-    puts "\n\nThat's not an option! Try again!"
+    puts "\n\nThat's not an option! Try again!\n\n"
   end
 end
