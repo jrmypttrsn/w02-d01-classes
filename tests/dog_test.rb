@@ -69,7 +69,7 @@ class DogTest < Minitest::Test
     dog = Dog.new(name: "Pharaoh", age: 4, species: "Weimaraner", gender: "male", 
           tail: "docked", legs: 4, eyes: 2, ears: 2, license: 123456, shots: true, rabbits_killed: 17)
     
-    dog.age == 0
+    dog.age != 0
     refute_equal(0, dog.age)
   end
 
@@ -77,7 +77,7 @@ class DogTest < Minitest::Test
     dog = Dog.new(name: "Pharaoh", age: 4, species: "Weimaraner", gender: "male", 
           tail: "docked", legs: 4, eyes: 2, ears: 2, license: 123456, shots: true, rabbits_killed: 17)
     
-    dog.age == -73
+    dog.age != -73
     refute_equal(-73, dog.age)
   end
   
@@ -87,13 +87,13 @@ class DogTest < Minitest::Test
     assert_equal(17, dog.rabbits_killed)
   end
 
-#  def test_eat_another_rabbit
-#    dog = Dog.new(name: "Pharaoh", age: 4, species: "Weimaraner", gender: "male", 
-#         tail: "docked", eyes: 2, ears: 2, license: 123456, shots: true rabbits_killed: 17)
-#    
-#    dog.eat_another_rabbit
-#    assert_equal(18, dog.rabbits_killed)
-#  end
+  def test_kill_another_rabbit
+    dog = Dog.new(name: "Pharaoh", age: 4, species: "Weimaraner", gender: "male", 
+         tail: "docked", legs: 4, eyes: 2, ears: 2, license: 123456, shots: true, rabbits_killed: 17)
+    
+    dog.kill_another_rabbit
+    assert_equal(18, dog.rabbits_killed)
+  end
 
   def test_rabbits_killed_setter
     dog = Dog.new(name: "Pharaoh", age: 4, species: "Weimaraner", gender: "male", 

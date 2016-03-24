@@ -4,8 +4,7 @@ class Dog
 
 	attr_accessor :name, :age, :species, :gender, :tail, :eyes, :ears, :license, :shots, :rabbits_killed
 
-	def initialize(name:, age:, species:, gender:, tail:, legs:, eyes:, ears:, license:, 
-									shots:, rabbits_killed:)
+	def initialize(name:, age:, species:, gender:, tail:, legs:, eyes:, ears:, license:, shots:, rabbits_killed:)
     @name = name
     @age = age
     @species = species
@@ -21,6 +20,10 @@ class Dog
 
   def shots?
   	@shots
+  end
+  
+  def kill_another_rabbit
+    @rabbits_killed += 1
   end
 end
 
