@@ -2,7 +2,7 @@ require "pry"
 
 class Dog
 
-	attr_accessor :name, :age, :species, :gender, :tail, :eyes, :ears, :license, :rabbits_killed
+	attr_accessor :name, :age, :species, :gender, :tail, :legs, :eyes, :ears, :license, :rabbits_killed
 
 	def initialize(name:, age:, species:, gender:, tail:, legs:, eyes:, ears:, license:, rabbits_killed:)
     @name = name
